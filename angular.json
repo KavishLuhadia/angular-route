@@ -99,6 +99,7 @@
               "src/assets"
             ],
             "styles": [
+              "../node_modules/bootstrap5/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []

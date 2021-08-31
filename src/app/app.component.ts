@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'second-poject';
+
+  homeRoute: string = 'home';
+  settingsRoute:string = 'settings'
+
+  routes = [
+    {linkName: 'Home', urlToRender: 'home'},
+    {linkName: 'Settings', urlToRender: 'settings'}
+  ];
 }
